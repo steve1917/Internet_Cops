@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1300px)" href="css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/965cdb0503.js" crossorigin="anonymous"></script>
+    <title>Internet_Cops</title>
+</head>
+
+<body id="home">
+    <!-- Navbar -->
+    <nav id="navbar" class="border_bottom">
+        <h1 class="logo">
+            <a href="index.html">
+                <span class="text_primary">
+                    <i class="fab fa-hackerrank"></i> Internet</span>_Cops
+            </a>
+        </h1>
+        <ul>
+            <li class=item><a href="#home">Home</a></li>
+            <li class="item"><a href="#what">What</a></li>
+            <li class="item"><a href="#who">Who</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Section showcase -->
+    <section id="showcase">
+        <div id="showcase_content" class="border_bottom">
+            <h1 class="L_heading">We are the Cyber_Warriors</h1>
+            <p class="lead">We play by
+                the rule of Justice! We track and punish Cybercrime whether it be in the Cyber-World or
+                a threat in the Physical World
+            </p>
+            <a href="#what" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Section what we do -->
+    <section id="what" class="border_bottom bg_dark py_2">
+        <div class="container">
+            <h2 class="M_heading py_1 text_center"><span class="text_primary ">What</span> We Do</h2>
+            <div class="items text_center">
+                <div class="item py_1 px_1">
+                    <i class="fas fa-search-location fa-2x"></i>
+                    <h3>Track Down Personal</h3>
+                    <p>Our software keeps peoples identities private but makes
+                        sure the Trouble Maker is found</p>
+                </div>
+                <div class="item py_1 px_1">
+                    <i class="fas fa-user-lock fa-2x"></i>
+                    <h3>Internet Lockdowns</h3>
+                    <p>are done to protect you when a criminal has gained access to
+                        your computer</p>
+                </div>
+                <div class="item py_1 px_1">
+                    <i class="fas fa-skull-crossbones fa-2x"></i>
+                    <h3>Terminate</h3>
+                    <p>Once a criminal has been located we will use weapons or other means
+                        to subdue them</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section who we are -->
+    <section id="who" class="border_bottom">
+        <div class="who_img"></div>
+        <div class=" who_text bg_dark p_2">
+            <h2> <span class="text_primary">Who</span> We Are</h2>
+            <p>We are a group of hackers, security experts and trained military personal that
+                enforce the rules of the Internet (For safety of Our employes and other confidential
+                reasons we cannot reveal our whole names)</p>
+            <h3>Our Team</h3>
+            <ul class="list">
+                <li>Steve : CEO</li>
+                <li>Steve : private</li>
+                <li>Steve : private</li>
+                <li>Steve : private</li>
+                <li>Steve : private</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Our Clients -->
+    <section id="clients" class="border_bottom">
+        <div class="container">
+            <h2 class="M_heading text_center"><span class="text_primary">Our</span> Clients</h2>
+            <div class="items p_2">
+                <div><img src="./img/logos/logo1.png" alt="client"></div>
+                <div><img src="./img/logos/logo2.png" alt="client"></div>
+                <div><img src="./img/logos/logo3.png" alt="client"></div>
+                <div><img src="./img/logos/logo4.png" alt="client"></div>
+                <div><img src="./img/logos/logo5.png" alt="client"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="border_bottom">
+        <div class="contact_form bg_primary p_2">
+            <h2 class="M_heading"><span class="text_white">Contact</span> Us</h2>
+            <p>Please use the form below to contact us</p>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" placeholder="Enter your Phone Number">
+                <label for="messsage">Message</label>
+                <textarea name="message" id="" cols="30" rows="3" placeholder="Enter Message"></textarea>
+                <a class="btn" href="#">Send</a>
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <footer id="main_footer " class="text_center p_1">
+        <p>Copyright &copy; 2020, Internet_Cops, All Rights Reserved</p>
+    </footer>
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Local JS File -->
+    <script src="js/main.js"></script>
+
+    <!-- Google Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?
+    key=AIzaSyC7zm0yYtW9GmBw9-mJoHtrb_lyFbdNcGU&callback=initMap" async defer></script>
+
+</body>
+
+</html>

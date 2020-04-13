@@ -1,0 +1,93 @@
+/* Navbar */
+
+#navbar {
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+}
+
+#navbar .logo {
+    padding-bottom: 25px;
+}
+
+#navbar ul li a {
+    font-size: 1.45rem;
+    padding: 5px;
+    padding: none;
+}
+
+/* Showcase */
+
+
+#showcase #showcase_content .L_heading {
+    font-size: 2.5rem;
+}
+
+/* Section What We Do */
+
+#what .items {
+    flex-direction: column;
+}
+
+/* Section Who We Are */
+
+#who {
+    display: block;
+}
+
+#who .who_img {
+    display: none;
+}
+
+#who .who_text {
+    text-align: center;
+    flex-direction: column;
+
+}
+
+/* Section Contact Us */
+
+#contact {
+    display: block;
+}
+
+#contact .map {
+    height: 330px;
+    border-bottom: 2px dotted #47ae32;
+    border-top: 2px dotted #47ae32;
+}
+
+#contact h2,
+p {
+    text-align: center;
+}
+
+#contact .contact_form textarea {
+    font-size: 1.4rem;
+}
+
+@media(max-height: 641px) {
+
+    #navbar ul li a {
+        font-size: 1.2rem;
+        padding: 5px;
+        padding: none;
+    }
+
+    #showcase #showcase_content {
+        font-size: 14px;
+    }
+
+    #showcase #showcase_content .L_heading {
+        font-size: 2rem;
+    }
+
+    #showcase #showcase_content .lead {
+        font-size: 1.3rem;
+    }
+
+    #showcase #showcase_content .btn {
+        margin-bottom: 4rem;
+    }
+}

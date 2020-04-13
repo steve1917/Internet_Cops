@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.17rem;
+}
+
+/* Main Styling */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+/* Utility Classes*/
+
+.logo {
+    font-size: 1.8rem;
+}
+
+.logo i {
+    font-size: 1.6rem;
+}
+
+.border_bottom {
+    border-bottom: #47ae32 1px dotted;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.text_primary {
+    color: #47ae32;
+    font-size: 1.7rem;
+}
+
+.text_white {
+    color: white;
+}
+
+.bg_light {
+    background-color: white;
+    color: #333;
+}
+
+.bg_dark {
+    background-color: #333;
+    color: white;
+}
+
+.bg_primary {
+    background-color: #333;
+    color: #47ae32;
+}
+
+.L_heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.M_heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #47ae32;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.py_1 {
+    padding: 1.5rem 0;
+}
+
+.py_2 {
+    padding: 2rem 0;
+}
+
+.py_3 {
+    padding: 3rem 0;
+}
+
+.px_1 {
+    padding: 0 1.5rem;
+}
+
+.px_2 {
+    padding: 0 2rem;
+}
+
+.px_3 {
+    padding: 0 3rem;
+}
+
+.p_1 {
+    padding: 1rem;
+}
+
+.p_2 {
+    padding: 2rem;
+}
+
+.p_3 {
+    padding: 3rem;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    height: 60px;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar .logo a {
+    font-size: 1.7rem;
+    color: white;
+}
+
+#navbar ul {
+    display: flex;
+    align-self: center;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 0.8rem;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #47ae32;
+    border-radius: 5px;
+}
+
+/* Showcase */
+
+#showcase h1 {
+    line-height: 3rem;
+    margin-bottom: 10px;
+}
+
+#showcase {
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+#showcase_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 2rem;
+    /* Overlay */
+    background-color: rgba(0, 1, 0, 0.7);
+}
+
+/* What We Do */
+
+#what .text_primary {
+    font-size: 1.9rem;
+}
+
+#what .items {
+    display: flex;
+}
+
+#what .items .item i {
+    background: black;
+    border-radius: 50%;
+    border: #47ae32 3px solid;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    align-self: center;
+}
+
+/* Section Who We Are */
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who_img {
+    background: url(../img/hacker-3342696_1280.jpg) no-repeat center center/cover;
+}
+
+#who .who_text h2 {
+    font-size: 1.6rem;
+}
+
+#who .who_text .list {
+    padding: 1rem;
+}
+
+#who .who_text .list li {
+    padding: 0.5rem;
+    border-bottom: 1px dotted #47ae32;
+}
+
+/* Section Our Clients */
+#clients {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #333;
+}
+
+
+#clients h2 {
+    color: white;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+#clients .text_primary {
+    font-size: 1.9rem;
+}
+
+#clients .items {
+    display: flex;
+    width: 100%
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section Our Contact */
+
+#contact {
+    display: flex;
+}
+
+#contact .contact_form {
+    flex: 1;
+}
+
+#contact .map {
+    flex: 1;
+}
+
+#contact .contact_form .text_white {
+    font-size: 1.9rem;
+}
+
+#contact .contact_form label {
+    display: block;
+    padding: .5rem 0;
+}
+
+#contact .contact_form input,
+textarea {
+    width: 100%;
+    padding: .5rem;
+    border: 1px #47ae32 dotted;
+    background-color: black;
+    color: white;
+}
+
+#contact .contact_form textarea {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+#contact .contact_form input:focus,
+textarea:focus {
+    color: #47ae32;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+}
+
+/* End of CSS */
